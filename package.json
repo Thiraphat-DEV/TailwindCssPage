@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/custom.css -o public/custom.css"
+  },
+  "keywords": [],
+  "author": "Thiraphat",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
